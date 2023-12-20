@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+.griditem{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+
+}
+.griditem img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+nav{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+    margin-right: 100px;
+
+}
+.course-container{
+    background-color: lightblue;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+
+}
